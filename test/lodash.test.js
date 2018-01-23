@@ -30,12 +30,6 @@ describe('lodash tests', () => {
 
       expect(result).to.eql([1, 2, 3])
     })
-
-    it('should not exist without "chain" wrapper', () => {
-      const result = _.value
-
-      expect(result).to.eql(undefined)
-    })
   })
 
   describe('filter', () => {
